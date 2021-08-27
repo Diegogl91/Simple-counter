@@ -7,7 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div className="text-center mt-5">
-			<h1>Hello Rigo stars!</h1>
+			<h1>Hello Rigo starwsfwsfs!</h1>
 			<p>
 				<img src={rigoImage} />
 			</p>
