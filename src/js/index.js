@@ -12,4 +12,11 @@ import "../styles/index.scss";
 import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+let segundos = 0;
+setInterval(function() {
+	segundos++;
+	ReactDOM.render(
+		<Home segundos={segundos} />,
+		document.querySelector("#app")
+	);
+}, 1000);

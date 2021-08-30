@@ -1,5 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+
+    
+
+.contenedor {
+    display: flex;
+    background: #070707 ;
+    font-size: 60px;
+    display: flex;
+    color: white;
+    line-height: 60px;
+    padding: 10px;
+    justify-content: center;
+}
+.contenedor div {
+    margin:10px
+}
+
+.boxdigito{
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    padding: 0.3rem;
+    border-right:2px solid  rgba(255,255,255,0.2);
+    border-left:2px solid  rgba(255,255,255,0.2);
+}
+
+
+
+
+
+
 /* 
 
     You can write your own styles here...
